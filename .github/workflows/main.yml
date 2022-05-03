@@ -31,7 +31,7 @@ jobs:
 
       # Runs an R script
       - name: Run Script
-        run: Rscript /docs/my_number.R
+        run: Rscript my_number.R
       
       # Authenticate and commit
       - name: Commit files
